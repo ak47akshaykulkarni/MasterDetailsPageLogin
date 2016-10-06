@@ -13,7 +13,7 @@ namespace MasterDetailsPageLogin.Views
         public Login()
         {
             InitializeComponent();
-
+            img.Source = "icon.png";
             btnLogin.Clicked += async (s, e) =>
             {
                 if (!string.IsNullOrEmpty(uname.Text) && !string.IsNullOrEmpty(pass.Text))
